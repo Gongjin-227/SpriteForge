@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 模型权重与大文件
+*.safetensors
+*.pth
+*.onnx
+*.bin
+*.h5
+*.pt
+*.ckpt
+
+# 第三方 CorridorKey 仓库
+models/CorridorKey/
+
+# HuggingFace 缓存
+.cache/
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
